@@ -1,0 +1,37 @@
+{
+	"_meta": {
+		"dataset": "Europa (Jupiter II)",
+		"kind": "REAL_ASTRONOMICAL",
+		"source": "NASA/JPL — JPL Planetary Satellite Physical Parameters & NASA Europa science resources",
+		"source_url": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+		"reference_frame": "IAU Jupiter equatorial",
+		"epoch": "J2000.0",
+		"units": {
+			"radius": "km",
+			"mass": "kg",
+			"distance": "km",
+			"period": "days",
+			"velocity": "km/s",
+			"angle": "deg"
+		},
+		"retrieved": "seeded from published NASA/JPL reference values",
+		"verified_against_source": false,
+		"notes": "Standard published NASA/JPL figures. Re-verify against the live source before shipping; no live retrieval was performed."
+	},
+	"bodies": [
+		{
+			"id": "EUROPA",
+			"name": "Europa",
+			"designation": "Jupiter II",
+			"type": "MOON",
+			"radius_mean_km": 1560.8,
+			"mass_kg": 4.7998e22,
+			"semi_major_axis_km": 670900.0,
+			"orbital_period_days": 3.551181,
+			"eccentricity": 0.009,
+			"inclination_deg": 0.466,
+			"mean_orbital_velocity_kms": 13.74,
+			"description": "Icy Galilean moon with a global subsurface ocean beneath its fractured ice shell — the destination of the PARALLAX expedition."
+		}
+	]
+}

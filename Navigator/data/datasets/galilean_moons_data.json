@@ -1,0 +1,65 @@
+{
+	"_meta": {
+		"dataset": "Galilean moons — Io, Ganymede, Callisto",
+		"kind": "REAL_ASTRONOMICAL",
+		"source": "NASA/JPL — JPL Planetary Satellite Physical Parameters",
+		"source_url": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+		"reference_frame": "IAU Jupiter equatorial",
+		"epoch": "J2000.0",
+		"units": {
+			"radius": "km",
+			"mass": "kg",
+			"distance": "km",
+			"period": "days",
+			"velocity": "km/s",
+			"angle": "deg"
+		},
+		"retrieved": "seeded from published NASA/JPL reference values",
+		"verified_against_source": false,
+		"notes": "Standard published NASA/JPL figures. Re-verify against the live source before shipping; no live retrieval was performed."
+	},
+	"bodies": [
+		{
+			"id": "IO",
+			"name": "Io",
+			"designation": "Jupiter I",
+			"type": "MOON",
+			"radius_mean_km": 1821.6,
+			"mass_kg": 8.9319e22,
+			"semi_major_axis_km": 421700.0,
+			"orbital_period_days": 1.769138,
+			"eccentricity": 0.0041,
+			"inclination_deg": 0.036,
+			"mean_orbital_velocity_kms": 17.33,
+			"description": "The most volcanically active body in the Solar System, driven by tidal heating."
+		},
+		{
+			"id": "GANYMEDE",
+			"name": "Ganymede",
+			"designation": "Jupiter III",
+			"type": "MOON",
+			"radius_mean_km": 2634.1,
+			"mass_kg": 1.4819e23,
+			"semi_major_axis_km": 1070400.0,
+			"orbital_period_days": 7.154553,
+			"eccentricity": 0.0013,
+			"inclination_deg": 0.177,
+			"mean_orbital_velocity_kms": 10.88,
+			"description": "Largest moon in the Solar System and the only one known to generate its own magnetic field."
+		},
+		{
+			"id": "CALLISTO",
+			"name": "Callisto",
+			"designation": "Jupiter IV",
+			"type": "MOON",
+			"radius_mean_km": 2410.3,
+			"mass_kg": 1.0759e23,
+			"semi_major_axis_km": 1882700.0,
+			"orbital_period_days": 16.689018,
+			"eccentricity": 0.0074,
+			"inclination_deg": 0.192,
+			"mean_orbital_velocity_kms": 8.20,
+			"description": "Ancient, heavily cratered outermost Galilean moon; largely undifferentiated ice and rock."
+		}
+	]
+}

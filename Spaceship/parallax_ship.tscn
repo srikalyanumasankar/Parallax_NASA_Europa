@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://dwqkwnxkod185"]
+
+[ext_resource type="Script" uid="uid://cysec8dw2gqll" path="res://PARALLAX/Spaceship/parallax_ship.gd" id="1_ship"]
+[ext_resource type="PackedScene" uid="uid://d4n4ub5fwqeuw" path="res://Sci-Fi_Starter_Kit/Example_01.tscn" id="2_hull"]
+[ext_resource type="PackedScene" path="res://PARALLAX/Spaceship/navigation_console.tscn" id="3_console"]
+
+[node name="ParallaxShip" type="Node3D" unique_id=743128247]
+script = ExtResource("1_ship")
+
+[node name="Ship" parent="." unique_id=537377770 instance=ExtResource("2_hull")]
+transform = Transform3D(0.99994254, -0.0019502335, 0.010542941, 0.0030578321, 0.9943525, -0.106083564, -0.01027651, 0.1061097, 0.9943013, 0.37854767, -0.6093726, 1.0668516)
+
+[node name="NavigationConsole" parent="." unique_id=1364693752 instance=ExtResource("3_console")]
+transform = Transform3D(0.9970576, -0.075797595, -0.011441691, 0.075552344, 0.99693054, -0.020531874, 0.012962834, 0.019607035, 0.9997237, -42.55872, 0.34960938, -13.822441)
